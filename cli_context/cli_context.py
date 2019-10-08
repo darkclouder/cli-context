@@ -29,6 +29,7 @@ class CliContext:
             program_str = " ".join(program)
 
             print("usage: %s <command> [<args>]" % program_str)
+            print("\n" + self.description)
 
             if len(self.sub_contexts) > 0:
                 print("\nCommands:")
