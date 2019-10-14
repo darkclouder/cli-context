@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name="cli-context",
+    name="cli_context",
     version="0.1.0",
     description="Hierarchical CLI creator",
     long_description="".join([
@@ -17,5 +17,6 @@ setup(
         "Programming Language :: Python :: 3.6",
         "Topic :: Software Development :: Libraries",
     ],
+    install_requires=[],
     packages=find_packages(exclude=["contrib", "docs", "tests*"]),
 )
